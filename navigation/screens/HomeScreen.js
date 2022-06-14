@@ -15,20 +15,20 @@ export default function HomeScreen({ navigation }) {
           <Card.Content>
           </Card.Content>
           <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
-          <Title style={{ color: 'orange' }}>Orange Lunch ODC in Sierra Leone</Title>
+          <Title style={{ color: 'orange', backgroundColor: '#293462', marginTop: 10, marginBottom: 10, padding: 10, textAlign: 'center', borderRadius: 20}}>Orange Lunch ODC in Sierra Leone</Title>
           <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Aut voluptate natus eius corporis obcaecati veritatis cum rerum animi
             nemo assumenda iure beatae eum, earum asperiores facilis pariatur optio
             dignissimos fugiat aspernatur suscipit laboriosam quidem! Magnam numquam
             doloribus nemo debitis. Facilis.</Paragraph>
           <Card.Actions>
-            <Button styles={{ color: '#FF4949' }}>Read</Button>
+            <Button styles={{ color: '#FF4949', backgroundColor: '#F4949'}}>Read More</Button>
           </Card.Actions>
 
 
           {/* blog 2 */}
           <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
-          <Title>Orange SL Fighting against Corruuption</Title>
+          <Title  style={{ color: 'orange', backgroundColor: '#293462', marginTop: 10, marginBottom: 10, padding: 10, textAlign: 'center', borderRadius: 20}}>Orange SL Fighting against Corruuption</Title>
           <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Aut voluptate natus eius corporis obcaecati veritatis cum rerum animi
             nemo assumenda iure beatae eum, earum asperiores facilis pariatur optio
@@ -41,14 +41,14 @@ export default function HomeScreen({ navigation }) {
           {/* Blog 3 */}
 
           <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
-          <Title>Orange Lunch New Promotion</Title>
-          <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <Title  style={{ color: 'orange', backgroundColor: '#293462', marginTop: 10, marginBottom: 10, padding: 10, borderRadius: 20}}>Orange Lunch New Promotion</Title>
+          <Paragraph  style={{ color: 'orange', backgroundColor: '#293462', marginTop: 10, marginBottom: 10, padding: 10, textAlign: 'center', borderRadius: 20}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Aut voluptate natus eius corporis obcaecati veritatis cum rerum animi
             nemo assumenda iure beatae eum, earum asperiores facilis pariatur optio
             dignissimos fugiat aspernatur suscipit laboriosam quidem! Magnam numquam
             doloribus nemo debitis. Facilis.</Paragraph>
           <Card.Actions>
-            <Button>Read</Button>
+            <Button>Continue Reading</Button>
           </Card.Actions>
 
         </Card>
